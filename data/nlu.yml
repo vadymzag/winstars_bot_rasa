@@ -1,0 +1,98 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: winstars_story
+  examples: |
+    - what is winstars?
+    - tell about winstars
+    - tell winstars story
+
+- intent: name_company
+  examples: |
+    - how is company called?
+    - do you know the name of the company?
+    - how do people call the company?
+    - what is name of comapany?
+    - company has name?
+    - what name company?
+
+- intent: work_time
+  examples: |
+    - how much time you need to work per day
+    - how long you need to work a day
+    - how much you need to work a day
+    - what is work time
+    - work per day
+    - how many hours a day you need to work
+
+- intent: active_day_time
+    - when i need to be on workplace?
+    - rule for answering during day
+    - time for be on work place
+
+- intent: day_off
+  examples: |
+    - how many days off you can have per year
+    - how many can I not go to work a year
+    - how many days off a year will I have
+    - the maximum number of weekends per year
+    - tell about day off
+
+- intent: thanks
+  examples: |
+    - thank you
+    - thanks
+    - thx
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot or a man?
+    - are you a human?
+    - can you speak like a human?
+    - did you pass the Turing test?
+    - are you live?
+    - you real?
+    - what you can?
+    - tell about yourself 
+
+- intent: praise_bot
+  examples: |
+    - you great
+    - good job
+    - sound good
+
+- intent: remote_day
+  examples: |
+    - how to make a remote
+    - how to take remote work
+    - what I need to take remote
+ 

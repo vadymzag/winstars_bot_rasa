@@ -1,0 +1,51 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - winstars_story
+  - name_company
+  - work_time
+  - active_day_time
+  - day_off
+  - bot_challenge
+  - praise_bot
+  - remote_day
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Have a nice day, bye!"
+  - text: "All bests. Bye☻"
+
+  utter_winstars_story:
+    - text: "Winstars Technology Research and Production Center was legally founded on June 23, 2016 in Vinnytsia, as a company specializing in the development of solutions in the field of Smart City and FinTech, although the activities and the first projects began back in 2014. But June 23 is officially called Winstars` DAY."
+
+  utter_name_company:
+    - text: "Company name is ✰Winstars✰"
+
+  utter_work_time:
+    - text: "8-hour working day from Monday to Friday, with weekends on Saturday and Sunday (40-hour working week)"
+
+  utter_active_day_time:
+    - text: "From 10 a.m. to 5 p.m., all employees must respond to messages in Google Chat and Gmail, as well as comments on Monday.com and GitLab with a delay of no more than 30 minutes"
+
+  utter_day_off:
+    - text: "Every Full Time employee for every 60 working hours is entitled to 1 Day Off. Day Off is accrued even if these working hours fall on the Day Off itself, so each employee has +/- 34 working days per year (Monday to Friday) during which he can rest, receive medical treatment, study, do his own business and etc. However, it is forbidden to accumulate more than 15 days, in which case all days above this limit will be automatically canceled"
+
+  utter_iamabot:
+    - text: "I am a FAQ bot, created by Junior Data Scientists for Winstars. And I can answer on your question)"
+
+  utter_bot_thx:
+    - text: "Thank you♥"
+
+  utter_remote_day:
+    - text: "Every Full Time employee working in-house for every 40 working hours is entitled to 1 Remote Day, which allows you to work from anywhere on Earth under the conditions of work regulations, company standards, high-speed Internet and a full-fledged workplace in place of remote work (table, chair, laptop or PC)."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

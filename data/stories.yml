@@ -1,0 +1,45 @@
+version: "3.0"
+
+stories:
+
+- story: ask bot
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: bot_challenge
+    - action: utter_iamabot
+    - intent: praise_bot
+    - action: utter_bot_thx
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: get company name
+  steps:
+  - intent: name_company
+  - action: utter_name_company
+
+
+- story: get company story
+  steps:
+  - intent: winstars_story
+  - action: utter_winstars_story
+
+- story: ask day time
+  steps:
+  - intent: active_day_time
+  - action: utter_active_day_time
+
+- story: ask active day time
+  steps:
+  - intent: work_time
+  - action: utter_work_time
+
+- story: ask about day off
+  steps:
+  - intent: day_off
+  - action: utter_day_off
+
+- story: ask about remote days
+  steps:
+  - intent: remote_day
+  - action: utter_remote_day
